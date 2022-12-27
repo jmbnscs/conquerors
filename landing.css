@@ -11372,7 +11372,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 2.5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
