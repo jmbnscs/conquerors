@@ -38,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <!-- <li class="nav-item"><a class="nav-link" href="#services">Projects</a></li> -->
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -51,12 +51,12 @@
             <div class="container">
                 <div class="masthead-subheading">Welcome To Our Project!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Explore</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#project">Explore</a>
             </div>
         </header>
 
         <!-- Projects Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <section class="page-section bg-light" id="project">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Projects</h2>
@@ -64,32 +64,32 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        <!-- project item 1-->
+                        <div class="project-item">
+                            <a class="project-link" data-bs-toggle="modal" href="#projectModal1">
+                                <div class="project-hover">
+                                    <div class="project-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="images/portfolio/cui.png" alt="..." />
+                                <img class="img-fluid" src="images/project/cui.png" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Client Account?</div>
-                                <div class="portfolio-caption-subheading text-muted">Client Interface</div>
+                            <div class="project-caption">
+                                <div class="project-caption-heading">Client Account?</div>
+                                <div class="project-caption-subheading text-muted">Client Interface</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        <!-- project item 2-->
+                        <div class="project-item">
+                            <a class="project-link" data-bs-toggle="modal" href="#projectModal2">
+                                <div class="project-hover">
+                                    <div class="project-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="images/portfolio/admin.png" alt="..." />
+                                <img class="img-fluid" src="images/project/admin.png" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Billing Management System</div>
-                                <div class="portfolio-caption-subheading text-muted">Admin Interface</div>
+                            <div class="project-caption">
+                                <div class="project-caption-heading">Billing Management System</div>
+                                <div class="project-caption-subheading text-muted">Admin Interface</div>
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@
 
         <!-- Project Modals-->
         <!-- CUI -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="project-modal modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
@@ -329,7 +329,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Client Account?</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="images/portfolio/cui.png" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="images/project/cui.png" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -351,7 +351,7 @@
         </div>
 
         <!-- Admin -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="project-modal modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
@@ -362,7 +362,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Billing Management System</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="images/portfolio/admin.png" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="images/project/admin.png" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
