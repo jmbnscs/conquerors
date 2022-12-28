@@ -1,0 +1,3 @@
+Rewrite Engine On
+
+RewriteRule ^conquerors?$ index.html
