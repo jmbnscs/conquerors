@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', event => {
         header_bg.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
     }
 
-    window.setInterval(changeImage, 5000);
+    window.setInterval(changeImage, 15000);
 
     // let counter = 0;
     // while(true) {
