@@ -48,17 +48,17 @@ window.addEventListener('DOMContentLoaded', event => {
 
     function changeImage(i) {   
         var BackgroundImg=[
-            "images/head0.jpg",
-            "images/head1.jpg",
-            "images/head2.jpg",
-            "images/head3.jpg",
-            "images/head4.jpg",
-            "images/head5.jpg",
-            "images/head6.jpg",
-            "images/head7.jpg",
-            "images/head8.jpg",
-            "images/head9.jpg",
-            "images/head10.jpg",
+            "images/head0.JPG",
+            "images/head1.JPG",
+            "images/head2.JPG",
+            "images/head3.JPG",
+            "images/head4.JPG",
+            "images/head5.JPG",
+            "images/head6.JPG",
+            "images/head7.JPG",
+            "images/head8.JPG",
+            "images/head9.JPG",
+            "images/head10.JPG",
         ];
         var i = Math.floor((Math.random() * 11));
         header_bg.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
