@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -51,4 +42,83 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    let header_bg = document.getElementById('masthead');
+    // let randomNum = Math.floor(Math.random() * 10);
+    // header_bg.style.backgroundImage = "url('images/head" + randomNum + ".jpg')";
+
+    function changeImage(i) {   
+        var BackgroundImg=[
+            "images/head0.jpg",
+            "images/head1.jpg",
+            "images/head2.jpg",
+            "images/head3.jpg",
+            "images/head4.jpg",
+            "images/head5.jpg",
+            "images/head6.jpg",
+            "images/head7.jpg",
+            "images/head8.jpg",
+            "images/head9.jpg",
+            "images/head10.jpg",
+        ];
+        var i = Math.floor((Math.random() * 11));
+        header_bg.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
+    }
+
+    window.setInterval(changeImage, 5000);
+
+    // let counter = 0;
+    // while(true) {
+    //     window.setInterval(changeImage(counter), 5000);
+    //     counter += 1;
+    //     if (counter == 10) {
+    //         counter = 0;
+    //     }
+    // }
+
+    // for(var i = 0; i <= 10; i++) {
+    //     var BackgroundImg = "images/head" + i + ".jpg";
+    //     window.setInterval(changeImage(i), 5000);
+    //     if (i == 10) {
+    //         i = 0;
+    //     }
+    // }
+
+
+    getCredentials();
 });
+
+function getCredentials() {
+    let creds = {
+        acct_1: {
+            username: "hannahbustamante",
+            password: "password6"
+        },
+        acct_2: {
+            username: "goriosuaperoii",
+            password: "password1"
+        },
+        acct_3: {
+            username: "tomriocasa",
+            password: "password2"
+        },
+        acct_4: {
+            username: "elaizananadiego",
+            password: "password3"
+        },
+        acct_5: {
+            username: "juliagarol",
+            password: "password4"
+        },
+        acct_6: {
+            username: "lancecruz",
+            password: "password5"
+        }
+    };
+
+    let values = Object.values(creds);
+    let randomIndex = Math.floor(Math.random() * values.length);
+    let randomValue = values[randomIndex];
+
+    document.getElementById('customer_username').innerHTML = randomValue.username;
+    document.getElementById('customer_password').innerHTML = randomValue.password;
+}
